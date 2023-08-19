@@ -6,5 +6,13 @@ Categoria::Categoria(const std::string& nombre) : nombre(nombre), numEquiposAsoc
 }
 
 std::string Categoria::getNombre() const {
-    return nombre; 
+    return nombre;
+}
+
+void Categoria::setnumEquiposAsociados(int n){
+numEquiposAsociados = n;
+}
+
+void Categoria::setNombre(std::string n){
+nombre = n;
 }

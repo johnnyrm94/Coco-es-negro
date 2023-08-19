@@ -1,7 +1,6 @@
 #include "EquipoNode.h"
 
 EquipoNode::EquipoNode(Equipo* equipo) : equipo(equipo), next(nullptr) {
-    // Initialize other attributes if needed
 }
 
 Equipo* EquipoNode::getEquipo() const {

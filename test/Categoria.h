@@ -10,7 +10,10 @@ private:
 
 public:
     Categoria(const std::string& nombre);
+    int getnumEquiposAsociados() const;
     std::string getNombre() const;
+    void setnumEquiposAsociados(int n);
+    void setNombre(std::string n);
 };
 
 #endif // CATEGORIA_H
